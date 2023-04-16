@@ -1,3 +1,11 @@
+:root {
+    --font-sans-serif: Muli, sans-serif;
+    --white: #fff;
+    --beige-light: #ededed;
+    --grey-dark: #333;
+    --blue: #00AFE9;
+}
+
 html {
     box-sizing: border-box;
   }
