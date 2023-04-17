@@ -3,7 +3,7 @@
     --white: #fff;
     --beige-light: #ededed;
     --grey-dark:#464444;
-    --grey-lighter: #717171;
+    --grey-lighter: #6b6a6a;
     --blue: #00AFE9;
 }
 
@@ -18,13 +18,14 @@ html {
     font-family: "muli", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: var(--grey-lighter);
   }
    
   h1{
     font-family: "muli", sans-serif;
     font-weight: 700;
     font-style: bold;
-    font-size: 90px;
+    font-size: 45px;
     color: var(--grey-dark);
   }
 
@@ -35,6 +36,9 @@ html {
     color: var(--grey-dark);
   }
 
+  .card__highlights{
+    font-weight: bold;
+  }
   .play__name{
     background-color: var(--beige-light);
     font-style: italic;
