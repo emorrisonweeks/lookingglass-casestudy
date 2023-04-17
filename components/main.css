@@ -83,7 +83,7 @@ html {
     color:var(--white);
     background:var(--blue);
     display: inline-block;
-    padding: 20px 200px;
+    padding: 10px 100px;
   }
 
   .footer__code{
