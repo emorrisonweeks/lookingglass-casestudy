@@ -2,7 +2,8 @@
     --font-sans-serif: Muli, sans-serif;
     --white: #fff;
     --beige-light: #ededed;
-    --grey-dark: #494747;
+    --grey-dark:#464444;
+    --grey-lighter: #717171;
     --blue: #00AFE9;
 }
 
@@ -80,6 +81,6 @@ html {
   }
 
   .footer__code{
-    background-color: var(--grey-dark);
+    background-color: var(--grey-lighter);
     color: var(--white);
   }
