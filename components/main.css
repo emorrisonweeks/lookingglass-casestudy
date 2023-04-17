@@ -30,11 +30,11 @@ html {
   h3 {
     font-family: "muli", sans-serif;
     font-weight: 700;
-    font-style: italic;
     font-size: 40px;
     color: var(--grey-dark);
   }
 
   .play__name{
     background-color: var(--beige-light);
+    font-style: italic;
   }
