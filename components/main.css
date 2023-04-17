@@ -38,3 +38,15 @@ html {
     background-color: var(--beige-light);
     font-style: italic;
   }
+
+  .ticketbutton__code{
+    display: inline-block;
+    font-family: "muli", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: none;
+    color:var(--white);
+    background:var(--blue);
+    display: inline-block;
+    padding: 13px 22px;
+  }
