@@ -2,7 +2,7 @@
     --font-sans-serif: Muli, sans-serif;
     --white: #fff;
     --beige-light: #ededed;
-    --grey-dark: #3a3939;
+    --grey-dark: #494747;
     --blue: #00AFE9;
 }
 
@@ -29,7 +29,7 @@ html {
 
   h3 {
     font-family: "muli", sans-serif;
-    font-weight: 700;
+    font-weight: 520;
     font-size: 40px;
     color: var(--grey-dark);
   }
@@ -65,4 +65,21 @@ html {
     background:var(--blue);
     display: inline-block;
     padding: 20px 32px;
+  }
+
+  .email__code{
+    display: inline-block;
+    font-family: "muli", sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    text-decoration: none;
+    color:var(--white);
+    background:var(--blue);
+    display: inline-block;
+    padding: 20px 200px;
+  }
+
+  .footer__code{
+    background-color: var(--grey-dark);
+    color: var(--white)
   }
