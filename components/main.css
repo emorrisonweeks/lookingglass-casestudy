@@ -2,7 +2,7 @@
     --font-sans-serif: Muli, sans-serif;
     --white: #fff;
     --beige-light: #ededed;
-    --grey-dark: #333;
+    --grey-dark: #3a3939;
     --blue: #00AFE9;
 }
 
@@ -22,5 +22,19 @@ html {
   h1{
     font-family: "muli", sans-serif;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
+    font-size: 90px;
+    color: var(--grey-dark);
+  }
+
+  h3 {
+    font-family: "muli", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px;
+    color: var(--grey-dark);
+  }
+
+  .play__name{
+    background-color: var(--beige-light);
   }
