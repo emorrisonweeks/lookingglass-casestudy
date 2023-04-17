@@ -54,31 +54,31 @@ html {
     display: inline-block;
     font-family: "muli", sans-serif;
     font-weight:lighter;
-    font-size: 40px;
+    font-size: 20px;
     text-decoration: none;
     color:var(--white);
     background:var(--blue);
     display: inline-block;
-    padding: 20px 32px;
+    padding: 10px 17px;
   }
 
   .memberbutton__code{
     display: inline-block;
     font-family: "muli", sans-serif;
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 20px;
     text-decoration: none;
     color:var(--white);
     background:var(--blue);
     display: inline-block;
-    padding: 20px 32px;
+    padding: 10px 17px;
   }
 
   .email__code{
     display: inline-block;
     font-family: "muli", sans-serif;
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 20px;
     text-decoration: none;
     color:var(--white);
     background:var(--blue);
