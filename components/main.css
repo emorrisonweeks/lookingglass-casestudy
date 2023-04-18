@@ -59,6 +59,7 @@ html {
 }
 .header-nav__list__item a {
     text-decoration: none;
+    list-style-type: none;
     color: var(--grey-dark);   
 }
 .header-nav a:hover{
@@ -73,17 +74,39 @@ html {
   color:var(--white);
   background-color: var(--blue);
   padding: 15px;
-  text-decoration: none;
-  list-style-type: none;
 }
-.header-nav__list__item__active{
+
+.header-nav__list__item__support a:hover{
+  color:var(--white);
+  padding: 1rem;
+  flex: 0 1 auto;
+  background-color: var(--grey-dark);
+}
+
+.header-nav__list__item__support a{
+  color:var(--white);
+  background-color: var(--blue);
+  padding: 15px;
+  list-style-type: none;
+  text-decoration: none;
+}
+.header-nav__list__item__active {
   padding: 1rem;
   flex: 0 1 auto;
   color:var(--white);
   background-color: var(--grey-dark);
   padding: 15px;
-  text-decoration: none;
-  list-style-type: none;
+
+}
+
+  .header-nav__list__item__active a{
+    padding: 1rem;
+    flex: 0 1 auto;
+    color:var(--white);
+    background-color: var(--grey-dark);
+    padding: 15px;
+    text-decoration: none;
+    list-style-type: none;
 }
 .header-nav__list__item__image{
   align-items: left;
