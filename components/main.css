@@ -17,6 +17,7 @@ html {
   body{
     font-family: "muli", sans-serif;
     font-weight: 400;
+    font-size: 16px;
     font-style: normal;
     color: var(--grey-lighter);
   }
@@ -36,6 +37,61 @@ html {
     color: var(--grey-dark);
   }
 
+/**header navecode**/
+  .header-nav__list {
+    font-family: "muli", sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: var(--grey-dark);
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .header-nav__list__item {
+    text-transform: none;
+    padding: 1rem;
+    flex: 0 1 auto;
+}
+.header-nav__list__item a {
+    text-decoration: none;
+    color: var(--grey-dark);   
+}
+.header-nav a:hover{
+  color:var(--white);
+  background-color: var(--grey-dark);
+  padding: 15px;
+}
+
+.header-nav__list__item__support{
+  padding: 1rem;
+  flex: 0 1 auto;
+  color:var(--white);
+  background-color: var(--blue);
+  padding: 15px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.header-nav__list__item__active{
+  padding: 1rem;
+  flex: 0 1 auto;
+  color:var(--white);
+  background-color: var(--grey-dark);
+  padding: 15px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.header-nav__list__item__image{
+  align-items: left;
+  padding-right: 100px;
+  
+}
+ /**body section code**/
+ 
   .card__highlights{
     font-weight: bold;
   }
