@@ -172,6 +172,12 @@ html {
     border-radius: 3px;
     padding: 10px 12px;
   }
+
+  /**Aside**/
+  .season__sponsors{
+    font-weight: lighter;
+  }
+
   .footer__code{
     background-color: var(--grey-lighter);
     color: var(--white);
