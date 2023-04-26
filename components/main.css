@@ -176,8 +176,15 @@ html {
   /**Aside**/
   .aside__code{
     border-style: solid black 2px;
-    text-align: center;
+    text-align: center;}
+
+  .logos__top{
+
   }
+  .logos__bottom{
+
+  }
+  
  
   /**Footer**/
 
