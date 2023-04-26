@@ -188,15 +188,15 @@ html {
   /**Footer**/
 
   .footer__left{
+    align-items: flex-start;
     background-color: var(--grey-lighter);
     color: var(--white);
-    align-items: flex-start;
   }
   .footer__right{
     display:flex;
     display:inline-block;
-    background-color: var(--grey-lighter);
-    color: var(--white);
     align-items:end;
     text-align: right;
+    background-color: var(--grey-lighter);
+    color: var(--white);
   }
