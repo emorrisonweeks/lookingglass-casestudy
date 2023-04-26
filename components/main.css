@@ -174,11 +174,23 @@ html {
   }
 
   /**Aside**/
-  .season__sponsors{
-    font-weight: lighter;
+  .aside__code{
+    border-style: solid black 2px;
+    text-align: center;
   }
+ 
+  /**Footer**/
 
-  .footer__code{
+  .footer__left{
     background-color: var(--grey-lighter);
     color: var(--white);
+    align-items: flex-start;
+  }
+  .footer__right{
+    display:flex;
+    display:inline-block;
+    background-color: var(--grey-lighter);
+    color: var(--white);
+    align-items:end;
+    text-align: right;
   }
