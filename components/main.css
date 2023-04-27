@@ -114,6 +114,7 @@ html {
  /**body section code**/
  .container{
   background-color: var(--beige-light);
+  padding:25px;
  }
 
  .container img{
@@ -175,7 +176,7 @@ html {
     font-size: 15px;
     text-decoration: none;
     color:var(--white);
-    background:gray;
+    background:var(--grey-dark);
     border-radius: 3px;
     padding: 10px 12px;
   }
