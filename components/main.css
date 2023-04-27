@@ -205,4 +205,5 @@ html {
   .footer__right{
     float: right;
    padding-left: 500px;
+   text-align: right;
   }
