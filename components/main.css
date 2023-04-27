@@ -112,7 +112,14 @@ html {
   
 }
  /**body section code**/
- 
+ .container{
+  background-color: var(--beige-light);
+ }
+
+ .container img{
+  float:left;
+  padding:15px;
+ }
   .card__highlights{
     font-weight: bold;
   }
@@ -186,17 +193,16 @@ html {
   
  
   /**Footer**/
-
+.container__footer{
+  display: flex;
+  background-color: var(--grey-lighter);
+  color: var(--white);
+}
   .footer__left{
-    align-items: flex-start;
-    background-color: var(--grey-lighter);
-    color: var(--white);
+  float:left;
+  padding-left: 200px;
   }
   .footer__right{
-    display:flex;
-    display:inline-block;
-    align-items:end;
-    text-align: right;
-    background-color: var(--grey-lighter);
-    color: var(--white);
+    float: right;
+   padding-left: 500px;
   }
