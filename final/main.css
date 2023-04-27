@@ -1,0 +1,210 @@
+:root {
+    --font-sans-serif: Muli, sans-serif;
+    --white: #fff;
+    --beige-light: #ededed;
+    --grey-dark:#444446;
+    --grey-lighter: #6a6a6b;
+    --blue: #00AFE9;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    font-family: "muli", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--grey-lighter);
+  }
+   
+  h1{
+    font-family: "muli", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 45px;
+    color: var(--grey-dark);
+  }
+
+  h3 {
+    font-family: "muli", sans-serif;
+    font-weight: 520;
+    font-size: 20px;
+    color: var(--grey-dark);
+  }
+
+/**header navecode**/
+  .header-nav__list {
+    font-family: "muli", sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: var(--grey-dark);
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .header-nav__list__item {
+    text-transform: none;
+    padding: 10px 17px;
+    flex: 0 1 auto;
+}
+.header-nav__list__item a {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 17px;
+    color: var(--grey-dark);   
+}
+.header-nav a:hover{
+  color:var(--white);
+  padding: 10px 17px;
+  background-color: var(--grey-dark);
+}
+
+.header-nav__list__item__support{
+  display: inline-block;
+  padding: 10px 17px;
+  color:var(--white);
+  background-color: var(--blue);
+}
+
+.header-nav__list__item__support a:hover{
+  color:var(--white);
+  display: inline-block;
+  padding: 10px 17px;
+  flex: 0 1 auto;
+  background-color: var(--grey-dark);
+}
+
+.header-nav__list__item__support a{
+  color:var(--white);
+  background-color: var(--blue);
+  list-style-type: none;
+  text-decoration: none;
+}
+.header-nav__list__item__active {
+  padding: 1rem;
+  flex: 0 1 auto;
+  color:var(--white);
+  background-color: var(--grey-dark);
+
+}
+
+  .header-nav__list__item__active a{
+    padding: 10px 10px 10px;
+    flex: 0 1 auto;
+    color:var(--white);
+    background-color: var(--grey-dark);
+    text-decoration: none;
+    list-style-type: none;
+}
+.header-nav__list__item__image{
+  align-items: left;
+  padding-right: 100px;
+  
+}
+ /**body section code**/
+ .container{
+  background-color: var(--beige-light);
+  padding:25px;
+ }
+
+ .container img{
+  float:left;
+  padding:15px;
+ }
+  .card__highlights{
+    font-weight: bold;
+  }
+  .play__name{
+    background-color: var(--beige-light);
+    padding: 10px 10px 10px;
+    color: var(--grey-dark);
+    font-style: italic;
+  }
+
+  .button{
+    text-decoration: none;
+    color:var(--white);
+  }
+  .ticketbutton__code{
+    display: inline-block;
+    font-family: "muli", sans-serif;
+    font-weight:lighter;
+    font-size: 20px;
+    text-decoration: none;
+    color:var(--white);
+    background:var(--blue);
+    display: inline-block;
+    padding: 10px 17px;
+  }
+
+  .memberbutton__code{
+    display: inline-block;
+    font-family: "muli", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+    color:var(--white);
+    background:var(--blue);
+    padding: 10px 17px;
+  }
+
+  .email__code{
+    display: inline-block;
+    font-family: "muli", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+    color:var(--white);
+    background:var(--blue);
+    padding: 10px 100px;
+  }
+
+  .scrollbutton__code{
+    display: inline-block;
+    font-family: "muli", sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: none;
+    color:var(--white);
+    background:var(--grey-dark);
+    border-radius: 3px;
+    padding: 10px 12px;
+  }
+
+  /**Aside**/
+  .aside__code{
+    text-align: center;}
+
+  .logos__top{
+
+  }
+  .logos__bottom{
+
+  }
+  
+ 
+  /**Footer**/
+.container__footer{
+  display: flex;
+  background-color: var(--grey-lighter);
+  color: var(--white);
+}
+  .footer__left{
+  float:left;
+  padding-left: 200px;
+  }
+  .footer__right{
+    float: right;
+   padding-left: 500px;
+   text-align: right;
+  }
