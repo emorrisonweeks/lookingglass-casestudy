@@ -111,6 +111,17 @@ html {
   padding-right: 100px;
   
 }
+
+/**hero banner code**/
+.container__banner{
+  background-image:url(images/herobannerbackground.png);
+  text-align: center;
+}
+
+.container__banner h1{
+color: var(--white);
+padding: 100px;
+}
  /**body section code**/
  .container{
   background-color: var(--beige-light);
