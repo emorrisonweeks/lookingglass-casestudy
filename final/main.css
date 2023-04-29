@@ -130,11 +130,12 @@ html {
   background-blend-mode: overlay;
   text-align: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:cover;
   height:auto;
   min-width: 100%;
   padding-right: 50px;
   padding-left: 40px;
+  padding-bottom: 50px;
 }
 
 .container__banner h2{
@@ -245,7 +246,7 @@ padding: 100px;
     background-image:url(images/LTC.png);
     image-orientation: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height:763px;
     width: 100%;
     text-align: center;
