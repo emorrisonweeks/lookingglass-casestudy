@@ -204,8 +204,6 @@ padding: 100px;
     padding: 15px;
   }
     
-    
-
   .herobutton__code{
     display: inline-block;
     font-family: "muli", sans-serif;
@@ -220,6 +218,16 @@ padding: 100px;
     padding: 15px;
   }
 
+  .emailbutton__code{
+    display: inline-block;
+    font-family: "muli", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+    color:var(--white);
+    background:var(--blue);
+    padding: 10px 100px;
+  }
 
   .scrollbutton__code{
     display: inline-block;
