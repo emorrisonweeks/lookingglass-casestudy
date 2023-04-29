@@ -233,6 +233,10 @@ padding: 100px;
   /**Aside**/
   .aside__code{
     text-align: center;}
+  .container__aside{
+    border-top: solid black 2px;
+
+   }
 
   /**Footer**/
 .container__footer{
