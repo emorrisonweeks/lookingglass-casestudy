@@ -20,6 +20,7 @@ html {
     font-size: 16px;
     font-style: normal;
     color: var(--grey-lighter);
+    line-height: 1.6;
   }
    
   h1{
@@ -36,7 +37,11 @@ html {
     font-size: 20px;
     color: var(--grey-dark);
   }
-
+ .img{
+    max-width: 100%;
+    height: auto;
+  }
+ 
 /**header navecode**/
   .header-nav__list {
     font-family: "muli", sans-serif;
@@ -140,10 +145,24 @@ padding: 100px;
   padding:1274 5398;
   
  }
- .card{
+.container .card p{
+  display:flex;
+  flex-wrap:wrap;
+  width:670px;
+  margin: 0px 0px 25.6px;
+}
+ .container .card:nth-child(even) {
+  background-color: var(--white);;
+}
+
+.container .card:nth-child(odd) {
+  background-color: var(--beige-light);
+}
+ .container .card{
   padding-bottom: 213px;
   padding-top: 15px;
  }
+
  .container img{
   float:left;
   padding:15px;
@@ -162,60 +181,42 @@ padding: 100px;
     text-decoration: none;
     color:var(--white);
   }
-  .detailsbutton__code{
+  .cardbutton__code{
+    text-decoration: none;
+    color:var(--white);
     display: inline-block;
     font-family: "muli", sans-serif;
     font-weight:lighter;
     font-size: 20px;
     text-decoration: none;
+    text-align: center;
     color:var(--white);
     background:var(--blue);
     display: inline-block;
-    padding: 10px 17px;
+    width: 526.41px;
+    padding: 15px;
   }
 
-  .memberbutton__code{
+  .cardbutton__code :hover{
+    color:var(--white);
+    background-color: var(--grey-dark);
+    width: 526.41px;
+    padding: 15px;}
+
+  .herobutton__code{
     display: inline-block;
     font-family: "muli", sans-serif;
     font-weight: lighter;
     font-size: 20px;
     text-decoration: none;
+    text-align: center;
     color:var(--white);
     background:var(--blue);
-    padding: 10px 17px;
+    width:330px;
+    height: 62px;
+    padding: 15px;
   }
 
-  .learnbutton__code{
-    display: inline-block;
-    font-family: "muli", sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
-    text-decoration: none;
-    color:var(--white);
-    background:var(--blue);
-    padding: 20px 68px;
-  }
-
-  .shopbutton__code{
-    display: inline-block;
-    font-family: "muli", sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
-    text-decoration: none;
-    color:var(--white);
-    background:var(--blue);
-    padding: 20px 68px;
-  }
-  .email__code{
-    display: inline-block;
-    font-family: "muli", sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
-    text-decoration: none;
-    color:var(--white);
-    background:var(--blue);
-    padding: 10px 100px;
-  }
 
   .scrollbutton__code{
     display: inline-block;
@@ -233,14 +234,6 @@ padding: 100px;
   .aside__code{
     text-align: center;}
 
-  .logos__top{
-
-  }
-  .logos__bottom{
-
-  }
-  
- 
   /**Footer**/
 .container__footer{
   display: flex;
