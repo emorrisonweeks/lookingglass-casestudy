@@ -133,9 +133,7 @@ html {
   background-size:cover;
   height:auto;
   min-width: 100%;
-  padding-right: 50px;
-  padding-left: 40px;
-  padding-bottom: 50px;
+  padding: 125px 50px 250px 40px;
 }
 
 .container__banner h2{
