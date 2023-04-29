@@ -249,7 +249,7 @@ padding: 100px;
     background-size: cover;
     height:763px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding-top: 125px;
     padding-right: 50px;
     padding-bottom: 250px;
@@ -257,7 +257,13 @@ padding: 100px;
    }
 
    .container__vidsection iframe{
-    float:left;
+    float:inherit;
+   }
+
+   .container__vidsection h1{
+    display:grid;
+    color: var(--white);
+
    }
   /**Footer**/
 .container__footer{
