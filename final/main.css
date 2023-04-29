@@ -240,10 +240,12 @@ padding: 100px;
   
    /**Video Section**/
    .container__vidsection{
-    background-color: var(--grey-lighter);
     background-image:url(images/LTC.png);
     image-orientation: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     height:763px;
+    width: 100%;
     text-align: center;
     padding-top: 125px;
     padding-right: 50px;
@@ -251,9 +253,7 @@ padding: 100px;
     padding-left: 40px;
    }
 .container__vidsection img{
-  display:flex;
-  height:763px;
-  width:1540px;
+
 }
   /**Footer**/
 .container__footer{
