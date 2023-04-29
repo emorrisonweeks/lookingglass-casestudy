@@ -54,18 +54,20 @@ html {
 
   .header-nav__list__item {
     text-transform: none;
-    padding: 10px 17px;
+    padding: 10px 10px;
     flex: 0 1 auto;
 }
 .header-nav__list__item a {
     text-decoration: none;
     list-style-type: none;
-    padding: 10px 17px;
-    color: var(--grey-dark);   
+    padding: 10px 10px;
+    color: var(--grey-dark) 10px;   
 }
 .header-nav a:hover{
   color:var(--white);
+  display: inline-block;
   padding: 10px 17px;
+  flex: 0 1 auto;
   background-color: var(--grey-dark);
 }
 
@@ -73,7 +75,7 @@ html {
   display: inline-block;
   padding: 10px 17px;
   color:var(--white);
-  background-color: var(--blue);
+  background-color: var(--blue) 10px;
 }
 
 .header-nav__list__item__support a:hover{
@@ -89,9 +91,12 @@ html {
   background-color: var(--blue);
   list-style-type: none;
   text-decoration: none;
+  padding: 10px 10px 10px;
+  flex: 0 1 auto;
+  
 }
 .header-nav__list__item__active {
-  padding: 1rem;
+  padding: 10px 10px 10px;
   flex: 0 1 auto;
   color:var(--white);
   background-color: var(--grey-dark);
@@ -116,6 +121,7 @@ html {
 .container__banner{
   background-image:url(images/lucyandcharliehero.jpeg);
   background-color: #0000004A;
+  image-orientation: center;
   background-blend-mode: overlay;
   text-align: center;
   padding-top: 125px;
@@ -131,9 +137,13 @@ padding: 100px;
  /**body section code**/
  .container{
   background-color: var(--beige-light);
-  padding:25px;
+  padding:1274 5398;
+  
  }
-
+ .card{
+  padding-bottom: 213px;
+  padding-top: 15px;
+ }
  .container img{
   float:left;
   padding:15px;
@@ -152,7 +162,7 @@ padding: 100px;
     text-decoration: none;
     color:var(--white);
   }
-  .ticketbutton__code{
+  .detailsbutton__code{
     display: inline-block;
     font-family: "muli", sans-serif;
     font-weight:lighter;
@@ -175,6 +185,27 @@ padding: 100px;
     padding: 10px 17px;
   }
 
+  .learnbutton__code{
+    display: inline-block;
+    font-family: "muli", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+    color:var(--white);
+    background:var(--blue);
+    padding: 20px 68px;
+  }
+
+  .shopbutton__code{
+    display: inline-block;
+    font-family: "muli", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+    color:var(--white);
+    background:var(--blue);
+    padding: 20px 68px;
+  }
   .email__code{
     display: inline-block;
     font-family: "muli", sans-serif;
