@@ -152,7 +152,7 @@ padding: 100px;
   margin: 0px 0px 25.6px;
 }
  .container .card:nth-child(even) {
-  background-color: var(--white);;
+  background-color: var(--white);
 }
 
 .container .card:nth-child(odd) {
