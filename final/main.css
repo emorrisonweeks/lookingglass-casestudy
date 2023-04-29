@@ -173,12 +173,6 @@ padding: 100px;
   .card__highlights{
     font-weight: bold;
   }
-  .play__name{
-    background-color: var(--beige-light);
-    padding: 10px 10px 10px;
-    color: var(--grey-dark);
-    font-style: italic;
-  }
 
   .button{
     text-decoration: none;
@@ -186,8 +180,6 @@ padding: 100px;
   }
   .cardbutton__code{
     text-decoration: none;
-    color:var(--white);
-    display: inline-block;
     font-family: "muli", sans-serif;
     font-weight:lighter;
     font-size: 20px;
@@ -201,10 +193,20 @@ padding: 100px;
   }
 
   .cardbutton__code :hover{
+    text-decoration: none;
+    font-family: "muli", sans-serif;
+    font-weight:lighter;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
     color:var(--white);
-    background-color: var(--grey-dark);
+    background:var(--grey-dark);
+    display: inline-block;
     width: 526.41px;
-    padding: 15px;}
+    padding: 15px;
+  }
+    
+    
 
   .herobutton__code{
     display: inline-block;
@@ -255,6 +257,10 @@ padding: 100px;
     padding-bottom: 250px;
     padding-left: 40px;
    }
+
+   .container__vidsection iframe{
+    float:left;
+   }
   /**Footer**/
 .container__footer{
   display: flex;
@@ -263,10 +269,11 @@ padding: 100px;
 }
   .footer__left{
   float:left;
-  padding-left: 200px;
   }
+
   .footer__right{
     float: right;
-   padding-left: 500px;
-   text-align: right;
+    padding-left: 1000px;
+    text-align: right;
+   
   }
