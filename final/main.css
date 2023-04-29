@@ -237,6 +237,11 @@ padding: 100px;
     border-top: solid black 2px;
 
    }
+  
+   /**Video Section**/
+   .container__vidsection{
+    background-image: <img src=url(https://lookingglasstheatre.org/wp-content/plugins/Ultimate_VC_Addons/assets/images/patterns/01.png);
+   }
 
   /**Footer**/
 .container__footer{
