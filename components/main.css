@@ -37,6 +37,15 @@ html {
     color: var(--grey-dark);
   }
 
+ /**app-bar**/
+ .app-bar{
+  background-color: var(--grey-lighter);
+  color: var(--white);
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 5px;
+ }
+
 /**header navecode**/
   .header-nav__list {
     font-family: "muli", sans-serif;
@@ -47,25 +56,27 @@ html {
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
-    padding: 0;
+    padding: 40;
     margin: 0 auto;
     justify-content: center;
   }
 
   .header-nav__list__item {
     text-transform: none;
-    padding: 10px 17px;
+    padding: 10px 10px;
     flex: 0 1 auto;
 }
 .header-nav__list__item a {
     text-decoration: none;
     list-style-type: none;
-    padding: 10px 17px;
-    color: var(--grey-dark);   
+    padding: 10px 10px;
+    color: var(--grey-dark) 10px;   
 }
 .header-nav a:hover{
   color:var(--white);
+  display: inline-block;
   padding: 10px 17px;
+  flex: 0 1 auto;
   background-color: var(--grey-dark);
 }
 
@@ -73,7 +84,7 @@ html {
   display: inline-block;
   padding: 10px 17px;
   color:var(--white);
-  background-color: var(--blue);
+  background-color: var(--blue) 10px;
 }
 
 .header-nav__list__item__support a:hover{
@@ -89,9 +100,12 @@ html {
   background-color: var(--blue);
   list-style-type: none;
   text-decoration: none;
+  padding: 10px 10px 10px;
+  flex: 0 1 auto;
+  
 }
 .header-nav__list__item__active {
-  padding: 1rem;
+  padding: 10px 10px 10px;
   flex: 0 1 auto;
   color:var(--white);
   background-color: var(--grey-dark);
@@ -111,19 +125,55 @@ html {
   padding-right: 100px;
   
 }
+
+
+/**hero banner code**/
+.container__banner{
+  background-image:url(img/lucyandcharliehero.jpeg);
+  background-color: #0000004A;
+  image-orientation:flex;
+  background-blend-mode: overlay;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:auto;
+  min-width: 100%;
+  padding: 125px 50px 250px 40px;
+}
+
+.container__banner h2{
+color: var(--white);
+padding: 100px;
+}
+
  /**body section code**/
  .container{
   background-color: var(--beige-light);
-  padding:25px;
+  padding:1274 5398;
+  
+ }
+.container .card p{
+  display:flex;
+  flex-wrap:wrap;
+  width:670px;
+  margin: 0px 0px 25.6px;
+}
+ .container .card:nth-child(even) {
+  background-color: var(--white);
+}
+
+.container .card:nth-child(odd) {
+  background-color: var(--beige-light);
+}
+ .container .card{
+  padding-bottom: 213px;
+  padding-top: 15px;
  }
 
  .container img{
   float:left;
   padding:15px;
  }
-  .card__highlights{
-    font-weight: bold;
-  }
   .play__name{
     background-color: var(--beige-light);
     padding: 10px 10px 10px;
@@ -135,30 +185,49 @@ html {
     text-decoration: none;
     color:var(--white);
   }
-  .ticketbutton__code{
-    display: inline-block;
+  .cardbutton__code{
+    text-decoration: none;
     font-family: "muli", sans-serif;
     font-weight:lighter;
     font-size: 20px;
     text-decoration: none;
+    text-align: center;
     color:var(--white);
     background:var(--blue);
     display: inline-block;
-    padding: 10px 17px;
+    width: 526.41px;
+    padding: 15px;
   }
 
-  .memberbutton__code{
+  .cardbutton__code :hover{
+    text-decoration: none;
+    font-family: "muli", sans-serif;
+    font-weight:lighter;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color:var(--white);
+    background:var(--grey-dark);
+    display: inline-block;
+    width: 526.41px;
+    padding: 15px;
+  }
+    
+  .herobutton__code{
     display: inline-block;
     font-family: "muli", sans-serif;
     font-weight: lighter;
     font-size: 20px;
     text-decoration: none;
+    text-align: center;
     color:var(--white);
     background:var(--blue);
-    padding: 10px 17px;
+    width:330px;
+    height: 62px;
+    padding: 15px;
   }
 
-  .email__code{
+  .emailbutton__code{
     display: inline-block;
     font-family: "muli", sans-serif;
     font-weight: lighter;
@@ -181,7 +250,32 @@ html {
     padding: 10px 12px;
   }
 
+
   /**Aside**/
+  .container__vidsection{
+    background-image:url(img/LTC.png);
+    image-orientation: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:763px;
+    width: 100%;
+    text-align: left;
+    padding-top: 125px;
+    padding-right: 50px;
+    padding-bottom: 250px;
+    padding-left: 40px;
+   }
+
+   .container__vidsection iframe{
+    float:inherit;
+   }
+
+   .container__vidsection h1{
+    display:grid;
+    color: var(--white);
+
+   }
+
   .aside__code{
     text-align: center;}
 
