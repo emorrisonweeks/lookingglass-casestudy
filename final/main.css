@@ -42,6 +42,17 @@ html {
     height: auto;
   }
  
+  /**app bar**/
+  .app-bar{
+    display: inline;
+    text-align: right;
+  }
+
+  .app-bar .container__app-bar {
+    background-color: var(--grey-lighter);
+    color: var(--white);
+    padding: 0.25px;
+  }
 /**header navecode**/
   .header-nav__list {
     font-family: "muli", sans-serif;
@@ -52,7 +63,7 @@ html {
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
-    padding: 0;
+    padding: 15px;
     margin: 0 auto;
     justify-content: center;
   }
