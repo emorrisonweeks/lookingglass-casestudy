@@ -48,9 +48,10 @@ html {
   text-align: right;
   padding-right: 15px;
   padding-top: 5px;
+  height: 40px;
  }
 
-/**header navecode**/
+/**header navcode**/
   .header-nav__list {
     font-family: "muli", sans-serif;
     font-weight: lighter;
@@ -63,6 +64,10 @@ html {
     padding: 40;
     margin: 0 auto;
     justify-content: center;
+  }
+
+  .header__code{
+    padding:40px;
   }
 
   .header-nav__list__item {
@@ -184,6 +189,14 @@ padding: 100px;
     text-decoration: none;
     color:var(--white);
   }
+
+  .herobutton__code :hover{
+    background: var(--grey-dark);
+    width: 526.41px;
+    padding-right: 40px; 
+    padding-left: 40px;
+  }
+
   .cardbutton__code{
     text-decoration: none;
     font-family: "muli", sans-serif;
@@ -199,17 +212,9 @@ padding: 100px;
   }
 
   .cardbutton__code :hover{
-    text-decoration: none;
-    font-family: "muli", sans-serif;
-    font-weight:lighter;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: center;
-    color:var(--white);
-    background:var(--grey-dark);
-    display: inline-block;
-    width: 526.41px;
-    padding: 15px;
+  background:var(--grey-dark); 
+  width: 526.41px;
+  padding: 15px;
   }
     
   .herobutton__code{
@@ -248,16 +253,8 @@ padding: 100px;
     border-radius: 3px;
     padding: 10px 12px;
   }
-
-  /**Aside**/
-  .aside__code{
-    text-align: center;}
-  .container__aside{
-    border-top: solid black 2px;
-
-   }
   
-   /**Video Section**/
+   /**Aside**/
    .container__vidsection{
     background-image:url(images/LTC.png);
     image-orientation: center;
@@ -279,6 +276,13 @@ padding: 100px;
    .container__vidsection h1{
     display:grid;
     color: var(--white);
+
+   }
+
+   .aside__code{
+    text-align: center;}
+  .container__aside{
+    border-top: solid black 2px;
 
    }
   /**Footer**/
