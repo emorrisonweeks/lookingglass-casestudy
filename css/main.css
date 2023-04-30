@@ -26,7 +26,7 @@ body{
 h1{
   font-family: "muli", sans-serif;
   font-weight: 700;
-  font-style: bold;
+  font-weight: bold;
   font-size: 45px;
   color: var(--grey-dark);
 }
@@ -63,7 +63,7 @@ height: 40px;
   list-style: none;
   display: flex;
   flex-wrap: nowrap;
-  padding: 40;
+  padding: 20px;
   margin: 0 auto;
   justify-content: center;
 }
@@ -82,7 +82,7 @@ height: 40px;
   text-decoration: none;
   list-style-type: none;
   padding: 10px 10px;
-  color: var(--grey-dark) 10px;   
+  color: var(--grey-dark);   
 }
 
 .header-nav a:hover{
@@ -95,9 +95,9 @@ background-color: var(--grey-dark);
 
 .header-nav__list__item__support{
 display: inline-block;
-padding: 10px 17px;
+height: 10px;
 color:var(--white);
-background-color: var(--blue) 10px;
+background-color: var(--blue);
 }
 
 .header-nav__list__item__support a:hover{
@@ -134,7 +134,6 @@ background-color: var(--grey-dark);
 }
 
 .header-nav__list__item__image{
-align-items: left;
 padding-right: 100px;
 }
 
@@ -142,7 +141,6 @@ padding-right: 100px;
 .container__banner{
 background-image:url(../images/lucyandcharliehero.jpeg);
 background-color: #0000004A;
-image-orientation:flex;
 background-blend-mode: overlay;
 text-align: center;
 background-repeat: no-repeat;
@@ -160,8 +158,6 @@ padding: 100px;
 /**body section code**/
 .container{
 background-color: var(--beige-light);
-padding:1274 5398;
-
 }
 
 .container .card p{
@@ -263,7 +259,6 @@ padding: 15px;
  /**Aside**/
  .container__vidsection{
   background-image:url(../images/LTC.png);
-  image-orientation: center;
   background-repeat: no-repeat;
   background-size: cover;
   height:763px;
