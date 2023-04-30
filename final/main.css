@@ -41,18 +41,15 @@ html {
     max-width: 100%;
     height: auto;
   }
- 
-  /**app bar**/
-  .app-bar{
-    display: inline;
-    text-align: right;
-  }
+ /**app-bar**/
+ .app-bar{
+  background-color: var(--grey-lighter);
+  color: var(--white);
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 5px;
+ }
 
-  .app-bar .container__app-bar {
-    background-color: var(--grey-lighter);
-    color: var(--white);
-    padding: 0.25px;
-  }
 /**header navecode**/
   .header-nav__list {
     font-family: "muli", sans-serif;
@@ -63,7 +60,7 @@ html {
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
-    padding: 15px;
+    padding: 40;
     margin: 0 auto;
     justify-content: center;
   }
