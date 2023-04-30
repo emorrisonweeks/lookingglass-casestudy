@@ -37,10 +37,12 @@ html {
     font-size: 20px;
     color: var(--grey-dark);
   }
+  
  .img{
     max-width: 100%;
     height: auto;
   }
+
  /**app-bar**/
  .app-bar{
   background-color: var(--grey-lighter);
@@ -75,12 +77,14 @@ html {
     padding: 10px 10px;
     flex: 0 1 auto;
 }
+
 .header-nav__list__item a {
     text-decoration: none;
     list-style-type: none;
     padding: 10px 10px;
     color: var(--grey-dark) 10px;   
 }
+
 .header-nav a:hover{
   color:var(--white);
   display: inline-block;
@@ -110,15 +114,14 @@ html {
   list-style-type: none;
   text-decoration: none;
   padding: 10px 10px 10px;
-  flex: 0 1 auto;
-  
+  flex: 0 1 auto; 
 }
+
 .header-nav__list__item__active {
   padding: 10px 10px 10px;
   flex: 0 1 auto;
   color:var(--white);
   background-color: var(--grey-dark);
-
 }
 
   .header-nav__list__item__active a{
@@ -129,10 +132,10 @@ html {
     text-decoration: none;
     list-style-type: none;
 }
+
 .header-nav__list__item__image{
   align-items: left;
   padding-right: 100px;
-  
 }
 
 /**hero banner code**/
@@ -153,18 +156,21 @@ html {
 color: var(--white);
 padding: 100px;
 }
+
  /**body section code**/
  .container{
   background-color: var(--beige-light);
   padding:1274 5398;
   
  }
+
 .container .card p{
   display:flex;
   flex-wrap:wrap;
   width:670px;
   margin: 0px 0px 25.6px;
 }
+
  .container .card:nth-child(even) {
   background-color: var(--white);
 }
@@ -276,16 +282,15 @@ padding: 100px;
    .container__vidsection h1{
     display:grid;
     color: var(--white);
-
    }
 
    .aside__code{
     text-align: center;}
   .container__aside{
     border-top: solid black 2px;
-
    }
-  /**Footer**/
+  
+   /**Footer**/
 .container__footer{
   display: flex;
   background-color: var(--grey-lighter);
@@ -299,5 +304,4 @@ padding: 100px;
     float: right;
     padding-left: 1000px;
     text-align: right;
-   
   }
